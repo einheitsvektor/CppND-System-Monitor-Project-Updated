@@ -52,6 +52,9 @@ std::string Ram(int pid);
 std::string Uid(int pid);
 std::string User(int pid);
 long int UpTime(int pid);
+
+// Own helper function
+std::string GetValue(std::string key, std::string path);
 };  // namespace LinuxParser
 
 #endif
